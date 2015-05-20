@@ -1,0 +1,1 @@
+Semnesters=new Meteor.Collection('semnesters');

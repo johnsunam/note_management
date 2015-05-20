@@ -1,0 +1,1 @@
+Batchs= new Meteor.Collection('batch');

@@ -1,0 +1,17 @@
+<template name="mainList">
+    <div class=" container well">
+        {{>topic}}
+      <div class="col-lg-6 mn_list">
+        <div class="list-group col-lg-11">
+      {{#each yr}}
+      {{>years}}
+      {{/each}}
+    </div>
+    </div>
+        <div>
+            <contents>
+{{>yield 'contents'}}
+            </contents>
+        </div>
+        </div>
+</template>

@@ -4,8 +4,9 @@ Template.semnester.events({
         var c= Session.get('title');
         var f=c+'  -'+this.sem;
         Session.set('title',f);
-        Topic.insert({'title':f});
-        Session.set('lists','hidden');
+       Topic.insert({'title':f});
+      Session.set('lists','hidden');
+
 
     }
 });

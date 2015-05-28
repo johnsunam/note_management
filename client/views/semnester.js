@@ -4,8 +4,12 @@ Template.semnester.events({
         var c= Session.get('title');
         var f=c+'  -'+this.sem;
         Session.set('title',f);
-       Topic.insert({'title':f});
-      Session.set('lists','hidden');
+      var data={
+          title:f
+      }
+        Meteor.call('sems',data);
+        //Router.go('firstsem',{_id: postId});
+      //Session.set('lists','hidden');
 
 
     }

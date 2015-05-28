@@ -1,5 +1,5 @@
-Template.firstSem.helpers({
+Template.firstsem.helpers({
 line:function(){
-
+return Topic.find();
 }
 });

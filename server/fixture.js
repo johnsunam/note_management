@@ -14,3 +14,13 @@ if (Semnesters.find().count() === 0) {
     Semnesters.insert({sem:'7th sem',id:'4'});
     Semnesters.insert({sem:'8th sem',id:'4'});
 }
+if (Sem.find().count()===0){
+    Sem.insert({title:'first year -1th sem'});
+    Sem.insert({title:'first year -2th sem'});
+    Sem.insert({title:'second year -3th sem'});
+    Sem.insert({title:'second year -4th sem'});
+    Sem.insert({title:'third year -5th sem'});
+    Sem.insert({title:'third year -6th sem'});
+    Sem.insert({title:'forth year -7th sem'});
+    Sem.insert({title:'forth year -8th sem'});
+}

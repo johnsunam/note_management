@@ -4,3 +4,8 @@ Meteor.publish('Batchs',function(){
 Meteor.publish('Semnesters',function(){
     return Semnesters.find();
 });
+Meteor.publish('sems',function(data){
+  return Sem.find();
+
+
+});
